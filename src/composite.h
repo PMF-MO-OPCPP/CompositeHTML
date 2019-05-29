@@ -2,8 +2,6 @@
 
 #include <string>
 
-#include "iterator.h"
-
 class HTMLCompositeTag;
 
 // Component klasa.
