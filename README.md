@@ -73,6 +73,23 @@ auto html = root->generateHTML(); // ispis čitave stranice
 std::cout << html;
 ```
 
+Ispis će biti:
+```
+<html>
+<body>
+<p>Osobna web stranica.</p>
+<ul>
+<li>item-1</li>
+<li>item-2</li>
+<li>item-3</li>
+</ul>
+<p>
+Ovaj tekst je <strong>pisan podebljano.</strong>
+</p>
+</body>
+</html>
+```
+
 ## _Iterator_ kroz HTML elemente
 
 Potrebno je implementirati iterator koji iterira kroz HTML elemente. Taj Iterator
